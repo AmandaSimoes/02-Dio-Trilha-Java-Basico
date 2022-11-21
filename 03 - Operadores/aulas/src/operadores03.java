@@ -1,5 +1,3 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-
 public class operadores03 {
     public static void main(String[] args) {
         // repetição 
