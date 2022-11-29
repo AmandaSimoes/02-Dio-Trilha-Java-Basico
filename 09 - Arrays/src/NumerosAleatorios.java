@@ -22,6 +22,12 @@ public class NumerosAleatorios {
             System.out.print((numeros+1) + " ");
             
         }
+
+        System.out.print("\nAntecessores de números aleatórios: ");
+        for (int numeros : numerosAleatorios) {
+            System.out.print((numeros-1) + " ");
+            
+        }
     }
     
 }
