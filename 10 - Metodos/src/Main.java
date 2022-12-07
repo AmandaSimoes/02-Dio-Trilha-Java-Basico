@@ -16,6 +16,12 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000, 5);
+
+        System.out.println("Sobrecarga");
+        Sobrecarga.area(3);
+        Sobrecarga.area(5d, 5d);
+        Sobrecarga.area(7, 9, 8);
+        Sobrecarga.area(5f, 5f);
     }
 
 
