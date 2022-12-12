@@ -1,3 +1,5 @@
+package Herança;
+
 class Veiculo {
     
 }
