@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class ExemplosMap {
     public static void main(String[] args) {
@@ -99,6 +100,16 @@ public class ExemplosMap {
         }};
 
         System.out.println(carrosPopulares1);
+
+        System.out.println("Exiba do dicionário ordenado pelo modelo (ordem alfabética): ");
+        Map<String, Double> carrosPopulares2 = new TreeMap<>(carrosPopulares1);
+        System.out.println(carrosPopulares2.toString());
+
+        System.out.println("Apague o dicionário de carros: ");
+        carrosPopulares.clear();
+        System.out.println(carrosPopulares);
+
+        System.out.println("Confira se o dicionário está vazio: " + carrosPopulares.isEmpty());
 
 
 
