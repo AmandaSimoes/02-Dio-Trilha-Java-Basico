@@ -12,8 +12,18 @@ public class BancoDeDados {
     }
 
     
-    public static void FinalizarConexao(){
+    public static void finalizarConexao(){
         Logger.info("Finalizou conexão");
+
+    }
+
+    public static void insereDados(Pessoa pessoa){
+        Logger.info("Inseriu dados");
+
+    }
+
+    public static void removeDados(Pessoa pessoa){
+        Logger.info("Removeu dados");
 
     }
     
